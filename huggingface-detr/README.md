@@ -5,7 +5,6 @@ This project demonstrates **object detection** using the **DETR (DEtection TRans
 ## 📂 **Project Structure**
 ```
 huggingface-detr/
-│── .gitignore
 │── .env  # Stores API Key (Not pushed to GitHub)
 │── README.md
 │── requirements.txt
@@ -60,14 +59,6 @@ Modify `main.py` to change:
 - The model endpoint (if needed)
 - Image file paths
 - Visualization settings
-
----
-
-## 🚸️ **Preventing API Key Leaks**
-To ensure your API key is **never** pushed to GitHub, add `.env` to `.gitignore`:
-```bash
-echo ".env" >> .gitignore
-```
 
 ---
 
